@@ -1,0 +1,54 @@
+{
+    "test_results": [
+        {
+            "model_name": "Logistic Regression",
+            "dataset": "Fraud",
+            "f1": 0.0,
+            "auc_pr": 0.09101789693656263
+        },
+        {
+            "model_name": "Logistic Regression",
+            "dataset": "Credit",
+            "f1": 0.10546378653113088,
+            "auc_pr": 0.6720110160925985
+        },
+        {
+            "model_name": "XGBoost",
+            "dataset": "Fraud",
+            "f1": 0.6357841053973651,
+            "auc_pr": 0.597184910118191
+        },
+        {
+            "model_name": "XGBoost",
+            "dataset": "Credit",
+            "f1": 0.8538011695906432,
+            "auc_pr": 0.8236710273927873
+        }
+    ],
+    "cv_results": {
+        "LogReg_Fraud": {
+            "f1_mean": 0.0,
+            "f1_std": 0.0,
+            "auc_pr_mean": 0.09571746044835445,
+            "auc_pr_std": 0.0009600360861379818
+        },
+        "XGBoost_Fraud": {
+            "f1_mean": 0.6381081049744836,
+            "f1_std": 0.009262657307189507,
+            "auc_pr_mean": 0.6093684328541225,
+            "auc_pr_std": 0.011067784910625343
+        },
+        "LogReg_Credit": {
+            "f1_mean": 0.11353337960418078,
+            "f1_std": 0.012505932489476443,
+            "auc_pr_mean": 0.7540924084873766,
+            "auc_pr_std": 0.026751024563275556
+        },
+        "XGBoost_Credit": {
+            "f1_mean": 0.8656114960595286,
+            "f1_std": 0.021546985326050535,
+            "auc_pr_mean": 0.8509671961613247,
+            "auc_pr_std": 0.03394582035463667
+        }
+    }
+}
